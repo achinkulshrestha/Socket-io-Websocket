@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://10.105.50.122:8088/socket.io/socket.io.js"></script>
+<script>
+// Create SocketIO instance, connect
+var socket = new io.connect('http://10.105.50.122',{
+  port: 8088
+ 
+});
+socket.on('news', function (data) {
+    alert(data.hello);
+	});
+</script>
+</head>
+<body>
+</body>
+</html>
