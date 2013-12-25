@@ -1,3 +1,5 @@
+/*A socket.io based websocket server for Secure Websocket connection wss://
+   Achin Kulshrestha (achinkul@gmail.com)*/
 var fs = require('fs');
 var options = {
   key: fs.readFileSync('cert/dan.key'),

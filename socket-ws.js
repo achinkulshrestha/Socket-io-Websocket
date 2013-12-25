@@ -1,3 +1,5 @@
+/*A simple socket.io based websocket server
+   Achin Kulshrestha (achinkul@gmail.com)*/
 var app = require('http').createServer(handler)
   , io = require('socket.io').listen(app)
   , fs = require('fs')
